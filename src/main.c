@@ -28,7 +28,6 @@ SPDX-License-Identifier: MIT
 /* === Headers files inclusions
  * =============================================================== */
 
-// #include "main.h"
 #include "gpio.h"
 
 /* === Macros definitions
