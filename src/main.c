@@ -60,6 +60,7 @@ SPDX-License-Identifier: MIT
  * ========================================================== */
 
 int main(void) {
+  printf("iniciando...");
   gpio_t red_led = gpioCreate(LED_ROJO_PORT, LED_ROJO_BIT);
   gpioSetOutput(red_led, true);
   gpioSetState(red_led, false);
